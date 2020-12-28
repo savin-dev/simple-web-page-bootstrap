@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrapjquery.js"></script>
+    <title>Play match</title>
+</head>
+<body>
+    <!----------------------------------------nav bar-------------------------------------------------------------->
+
+    <img class="img-fluid" src="images/Premier-League.jpg" style="width: 100%;" alt="back ground image">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-none d-sm-inline-block">
+                <img src="images/logo.jpg" style="width: 80px;" alt="Logo"/>
+            </a>
+
+            <a class="navbar-brand">League club</a>
+
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav ">
+                    <a class="nav-item nav-link active" href="Create team.html">Home</a>
+                    <a class="nav-item nav-link" href="League table.html">Manage teams</a>
+                    <a class="nav-item nav-link" href="Play match.html">Match</a>
+                </div>
+            </div>
+        
+            <span class="navbar-text d-none d-xl-inline-block">Premiyer League club</span>
+        </div>
+    </nav>
+
+    <!------------------------------------------------------------------------------------------------------------------->
+
+    <form action="">
+        <fieldset>
+            <section class="border my-4 p-3 shadow-none" style="box-shadow: 10px 10px 10px rgb(55, 54, 54);">
+                <legend>Play match</legend>
+            </section>
+
+            <section class="border my-4 p-3" style="box-shadow: 10px 10px 10px rgb(55, 54, 54);">
+                <div class="form-group row">
+                    <label class="col-form-label text-md-right col-md-2" for="Home team name">Home team name</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="text" id="Home team name" placeholder="Home team name">
+                    </div>
+                </div>
+            </section>
+
+            <section class="border my-4 p-3" style="box-shadow: 10px 10px 10px rgb(55, 54, 54);">
+                <div class="form-group row">
+                    <label class="col-form-label text-md-right col-md-2" for="Away team name">Away team name</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="text" id="Away team name" placeholder="Away team name">
+                    </div>
+                </div>
+            </section>
+
+            <section class="border my-4 p-3" style="box-shadow: 10px 10px 10px rgb(55, 54, 54);">
+                <div class="form-group row">
+                    <label class="col-form-label text-md-right col-md-2" for="Home goals">Home goals</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="text" id="Home goals" placeholder="Home goals">
+                    </div>
+                </div>
+            </section>
+
+            <section class="border my-4 p-3" style="box-shadow: 10px 10px 10px rgb(55, 54, 54);">
+                <div class="form-group row">
+                    <label class="col-form-label text-md-right col-md-2" for="Away goals">Away goals</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="text" id="Away goals" placeholder="Away goals">
+                    </div>
+                </div>
+            </section>
+
+            <section class="border my-4 p-3 shadow-none" style="box-shadow: 10px 10px 10px rgb(55, 54, 54);">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </section>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
